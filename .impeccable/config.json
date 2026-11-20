@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-07T03:10:46.662Z",
+        "reason": "assistant: sections have 64-110px padding-top (verified via getComputedStyle); detector flags the border-top line only"
+      }
+    ]
+  }
+}
